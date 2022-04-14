@@ -7,7 +7,8 @@ Perfect wordlist to discover directories and files on target site with tools lik
 # usage example
 ```
 curl -fsSL bit.ly/dsstorewordlist > /tmp/dsstorewordlist.txt;
-echo trustedshops.com | subfinder -silent | sed -e 's/^/https:\/\//' | feroxbuster --stdin --extract-links --silent -s 200 301 302 -r -w /tmp/dsstorewordlist.txt -BEg
+echo trustedshops.com | subfinder -silent | aquatone;
+cat ~/aquatone_urls.txt | feroxbuster --stdin --extract-links --silent -s 200 -x php -r -w /tmp/dsstorewordlist.txt -BEg
 ```
 ```
 curl -fsSL bit.ly/dsstorewordlist > /tmp/dsstorewordlist.txt;

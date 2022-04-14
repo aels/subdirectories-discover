@@ -6,7 +6,8 @@ Perfect wordlist to discover directories and files on target site with tools lik
 - resulted file you can download below. Happy Hunting!
 # usage example
 ```
-echo trustedshops.com | subfinder -silent | aquatone; cat ~/aquatone_urls.txt | feroxbuster --stdin --extract-links --silent -s 200 -x php -r -BEg -w (wget -nv bit.ly/dsstorewordlist -O dsstorewordlist.txt 2>&1 |cut -d\" -f2)
+echo trustedshops.com | subfinder -silent | aquatone;
+cat ~/aquatone_urls.txt | feroxbuster --stdin --extract-links --silent -s 200 -x php -r -BEg -w (wget -nv bit.ly/dsstorewordlist -O dsstorewordlist.txt 2>&1 | cut -d\" -f2);
 ```
 ```
 curl -fsSL bit.ly/dsstorewordlist > /tmp/dsstorewordlist.txt;

@@ -14,6 +14,7 @@ curl -fsSL bit.ly/dsstorewordlist > /tmp/dsstorewordlist.txt;
 ffuf -w /tmp/dsstorewordlist.txt -u https://analytics.trustwalletapp.com/FUZZ -r
 ```
 List url: https://raw.githubusercontent.com/aels/subdirectories-discover/main/dsstorewordlist.txt
+
 You don't need to download it every time and store somewhere. You can use command
 ```$(wget -nv bit.ly/dsstorewordlist 2>&1 | cut -d\" -f2)```
 instead of local path to file in all tools you are using.

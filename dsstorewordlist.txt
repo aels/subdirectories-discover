@@ -3,6 +3,7 @@ index.php
 css
 js
 wp-content
+wp-content/mysql.sql
 robots.txt
 assets
 wp-admin

@@ -1,5 +1,4 @@
-%23.env
-%23?.env
+.env
 %.env
 %09.env
 %09%3b.env
@@ -255,10 +254,10 @@
 .env..;/
 .env~
 .env°/
-.env#
-.env#/
-.env#/./
-.env#test
+.env%23
+.env%23/
+.env%23/./
+.env%23test
 .env%00
 .env%09
 .env%0A

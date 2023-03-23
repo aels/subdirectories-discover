@@ -1,5 +1,5 @@
-#.env
-#?.env
+%23.env
+%23?.env
 %.env
 %09.env
 %09%3b.env
@@ -76,7 +76,7 @@
 .html.env
 .json.env
 /.env
-/%20#.env
+/%20%23.env
 /%20%20/.env
 /%20%23.env
 /%252e%252e%252f/.env
